@@ -1,0 +1,81 @@
+body {
+  background-image: url(img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding-top: 28px;
+  background-color: #dd7e2c;
+  max-width: 40%;
+  margin: auto;
+  height: 300px;
+  border: 2.5px solid #aaa15b;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+#increment-btn {
+  background: darkred;
+}
+
+#increment-btn:hover {
+  background-color: rgb(138, 34, 34);
+}
+
+#increment-btn:active {
+  background-color: rgb(136, 75, 75);
+}
+
+#save-btn {
+  background: darkgreen;
+}
+
+#save-btn:hover {
+  background: rgb(53, 92, 53);
+}
+
+#save-btn:active {
+  background: rgb(54, 84, 54);
+}
+
+p {
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Optional: Space between buttons */
+  margin-top: 20px; /* Adjust for vertical spacing */
+}
